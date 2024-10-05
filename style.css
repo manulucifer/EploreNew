@@ -1,0 +1,292 @@
+/* image---title */
+
+.img{
+    height: 45px;
+    width: 45px;
+    display: flex;
+    margin-left: -5px;
+}
+.title{
+    margin-top: -5px;
+    margin-left: 6px;
+    text-decoration: none;
+}
+.title a {
+    text-decoration: none;
+    color: #000;
+    font-size: 25px;
+}
+button{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+}
+
+/* Tabular column */
+
+.tab{
+    background-color: #b1acac;
+    height: 50px;
+    width: 100;
+    margin-top: -7px;
+    margin-left: -7px;
+    margin-right: -7px;
+    display: flex;
+    display: flexbox;
+    position: fixed;
+    border-bottom: 2px solid #000;
+}
+
+/* lists */
+
+ul{
+    list-style-type: none;
+    margin-top: -5px;
+    margin-left: 600px;
+}
+li{
+    float: right;
+    margin-top: 2px;
+    display: inline;
+    margin-right:25px;
+}
+li a{
+    display: inline;
+    text-decoration: none;
+    padding: 15px 17px;
+    float: right;
+    align-items: normal;
+    font-size: 19px;
+    color: #eeeeee;
+    display: block;
+}
+li a:hover{
+    background-color: #686767;
+    color: #fff;
+}
+nav{
+    display: inline;
+    float: right;
+    margin-right: -250px;
+    height: 100%;
+    display: flex;
+    position: fixed;
+}
+button {
+    background-color: transparent;
+    border: none;
+    text-decoration: none;
+}
+.active{
+    background-color: #3d3c3c;
+}
+.right{
+    margin-left: -55px;
+}
+#right{
+    margin-left: 5px;
+}
+#right2{
+    margin-left: -17px;
+}
+
+ /* Profile */
+
+ .avatar{
+    background-color: transparent;
+    height: 50px;
+    float: right;
+    border-radius: 50%;
+    margin-left: 940px;
+}
+.align{
+    margin-left: 59px;
+}
+#avatar{
+    margin-right: 60px;
+}
+#avatar2{
+    margin-right: 37px;
+}
+
+/* picture */
+
+.picture{
+    background-image: url(explore.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 900px;
+    width: 100;
+    margin-left: -7px;
+    margin-right: -8px;
+}
+.pic2{
+    background-image: url(news.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100;
+    margin-left: -7px;
+    margin-right: -8px;
+}
+.pic3{
+    background-image: url(explore2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100;
+    margin-left: -7px;
+    margin-right: -8px;
+}
+.pic4{
+    background-image: url(profile.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100;
+    margin-top: -25px;
+    margin-left: -7px;
+    margin-right: -8px;
+}
+.heading{
+    display: flex;
+    margin-top: -750px;
+    margin-left: 155px;
+    color: #99FFFF;
+}
+.h2{
+    margin-top: 55px;
+    margin-left: -280px;
+}
+.img1{
+    display: flex;
+    position: fixed;
+    height: 55px;
+}
+
+/* choose column */
+
+.choose {
+    height: 155px;
+    width: 255px;
+    border: 4px solid #3f81fd;
+    border-radius: 10px;
+    margin-right: 45px;
+    margin-left: 25px;
+    float: left;
+    position: relative; /* Added this */
+    z-index: 1; /* Ensure that the choose block has a proper stacking context */
+}
+
+.choose a {
+    display: block;
+}
+
+.newsimg {
+    height: 155px;
+    width: 255px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.nw{
+    color: #99FFFF;
+    margin-left: 55px;
+}
+#gap{
+    margin-top: 200px;
+}
+.web {
+    color: #3f81fd;
+    font-size: 23px;
+    margin-right: 15px; /* Space between text and button */
+}
+
+
+/* Hover effect for button */
+.btn:hover {
+    background-color: #d0d0d0; /* Changes background on hover */
+    color: #000;
+}
+
+.web-container {
+    display: flex;
+    align-items: center; /* Vertically aligns items */
+    margin-top: 200px; /* Adjust if needed */
+    margin-left: 35px;
+    position: relative; /* Ensure the position is relative */
+    z-index: 10; /* Added z-index */
+}
+
+.btn {
+    text-decoration: none;
+    background-color: #eeeeee;
+    color: #3f81fd;
+    font-size: 22px;
+    border: 1px solid #000;
+    border-radius: 5px;
+    padding: 10px 15px;
+    display: inline-block; /* Ensures the link behaves like a button */
+    cursor: pointer; /* Adds pointer to indicate it's clickable */
+    z-index: 10; /* Added z-index */
+}
+/* contact */
+
+.contact{
+    font-size: 22px;
+    color: #ff0202;
+    margin-left: 55px;
+    margin-top: 222px;
+    font-weight: 100px;
+}
+.clickhere{
+    text-decoration: none;
+    color: #121;
+    font-size: 20px;
+    font-weight: 50px;
+    background-color: #eeeeee;
+    border-radius: 5px;
+    border: 1px solid #000;    
+}
+.pic5{
+    background-image: url(contactus.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;
+    width: 100;
+    margin-top: -25px;
+    margin-left: -7px;
+    margin-right: -8px;
+}
+.img2{
+    display: flex;
+    position: fixed;
+    height: 55px;
+}
+/* input */
+
+.action{
+    float: right;
+    height: 355px;
+    width: 263px;
+    margin-top: -525px;
+    margin-right: 520px;
+}
+#emp{
+    width: 300px;
+    height: 30px;
+    border-radius: 40px;
+}
+#mes{
+    height: 60px;
+    width: 300px;
+    border-radius: 15px;
+    align-items: center;
+}
+.sub{
+    border-radius: 5px;
+    color: #000000;
+}
+.sub:hover{
+    background-color: #80f868;
+}
